@@ -12,5 +12,7 @@ end
 
 reset_database
 
+Song.all
+Song.find_by_name("Hello")
 binding.pry
 "pls"
